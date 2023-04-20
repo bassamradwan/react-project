@@ -1,0 +1,44 @@
+/* .todo-form{
+    padding: 10px;
+    width: 25%;
+    margin: 5% auto;
+      border: 1px solid beige;
+      background-color: rgba(234, 237, 240, 0.043);
+      border-radius: 20px;
+      color: #61dafb;
+  
+  } */
+  .todo-Container{
+    width: 25%;
+    margin: 10% auto;
+    padding: 10px;
+    border-radius: 20px;
+    color: #61dafb;
+    background-color: rgba(234, 237, 240, 0.043);
+    justify-content: center;
+   
+  }
+  
+  .myButton-todo {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#282c34 !important;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+  }
+  .myButton-todo:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
+  }
+  .myButton-todo:active {
+    position:relative;
+    top:1px;
+  }

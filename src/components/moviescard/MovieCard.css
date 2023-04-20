@@ -1,0 +1,94 @@
+.card {
+    width: 18rem;
+    box-shadow: 0px 0px 5px #bbb;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    background-color: #b1b1b1;
+  }
+  
+  .crads{
+    background-color: #282c34 !important;
+    color: #61dafb;
+    
+  }
+  .card:hover {
+    box-shadow: 0px 0px 10px #bbb;
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  .card-img-top {
+    position: relative;
+  }
+  
+  .voteAverageBadge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  
+  }
+  .movie-card-img {
+    position: relative;
+  }
+  
+  .favorite-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    cursor: pointer;
+  }
+ 
+  .myButton {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+  }
+  .myButton:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+  
